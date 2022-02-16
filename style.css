@@ -24,7 +24,7 @@ body {
   background-color: var(--Dark-blue-color);
 }
 
-.container {
+.main {
   max-width: 1440px;
   min-width: 375px;
   margin: 150px auto;
@@ -34,7 +34,7 @@ body {
   flex-direction: column;
 }
 
-.container .card {
+.main .card {
   background-color: var(--white-color);
   height: 363px;
   width: 212px;
@@ -44,7 +44,7 @@ body {
 }
 
 @media (min-width: 375px) {
-  .container .card {
+  .main .card {
     padding: 12px;
     margin: 100px 100px;
     border-radius: 16px;
@@ -69,7 +69,7 @@ body {
 }
 
 @media (min-width: 375px) {
-  .container {
+  .main {
     padding: 0 40px;
     text-align: center;
     background-color: var(--Light-gray-color);
