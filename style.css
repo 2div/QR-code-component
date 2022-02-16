@@ -1,0 +1,81 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --Light-gray-color: hsl(212, 45%, 89%);
+  --Grayish-blue-color: hsl(220, 15%, 55%);
+  --Dark-blue-color: hsl(218, 44%, 22%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--Dark-blue-color);
+}
+
+.container {
+  max-width: 1440px;
+  min-width: 375px;
+  margin: 150px auto;
+  text-align: center;
+  background-color: var(--Light-gray-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.container .card {
+  background-color: var(--white-color);
+  height: 363px;
+  width: 212px;
+  padding: 12px;
+  margin: 100px auto;
+  border-radius: 16px;
+}
+
+@media (min-width: 375px) {
+  .container .card {
+    padding: 12px;
+    margin: 100px 100px;
+    border-radius: 16px;
+  }
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card p {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--Dark-blue-color);
+}
+
+.card span {
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: var(--Grayish-blue-color);
+}
+
+@media (min-width: 375px) {
+  .container {
+    padding: 0 40px;
+    text-align: center;
+    background-color: var(--Light-gray-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+}
