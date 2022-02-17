@@ -5,25 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
 <!-- Render All Elements Normally -->
-<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="style.css"> 
+<link rel="stylesheet" href="normalize.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <!-- Google-font -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet"> 
 <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 <!-- CSS file -->
-<link rel="stylesheet" href="style.css"> 
+  
 <title>Frontend Mentor | QR code component</title>
 
 </head>
 <body>
-  <main>
+  <main class="container">
     <div class="card">
-      <img src="images/image-qr-code.png" alt="image-qr-code">
-      <div class="content">
-        <p>Improve your front-end skills by building projects</p>
-        <span> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</span>
+      <div class="img-block">
+        <img src="images/image-qr-code.png" alt="QR-Code">
       </div>
+      <section class="info-block">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </section>
     </div>
   </main>
 </body>
