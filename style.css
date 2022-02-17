@@ -35,8 +35,8 @@ body {
 
 .card {
   background-color: var(--white-color);
-  height: 326px;
-  width: 212px;
+  height: 418px;
+  width: 277px;
   padding: 12px;
   border-radius: 16px;
 }
@@ -46,14 +46,22 @@ body {
   border-radius: 10px;
 }
 
+.info-block {
+  padding: 8px 0 0;
+}
+
 .info-block h1 {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--Dark-blue-color);
+  padding: 3px 0 0;
+  margin: 6px;
 }
 
 .info-block p {
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 0.86rem;
   color: var(--Grayish-blue-color);
+  padding: 4px 0 0px;
+  margin: 0px 18px 0px;
 }
